@@ -1,0 +1,53 @@
+.head {
+  display: flex;
+  background-color: rgb(197, 20, 20);
+  gap: 10px;
+  justify-content: center;
+}
+.head #dos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex inline;
+  justify-content: center;
+  gap: 1rem;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 15px;
+  display: block;
+  background-color: #f3f3f3;
+  transition: 0.5s;
+}
+
+nav {
+  justify-content: center;
+  display: flex;
+  padding: 15px;
+}
+
+.sec1 {
+  background-image: url('https://www.ohchr.org/sites/default/files/styles/hero_5_image_desktop/public/SiteCollectionImages/Press/Story_Iraq_Education.jpg?itok=RiUTXQVd');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+h2, h3 {
+  color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
