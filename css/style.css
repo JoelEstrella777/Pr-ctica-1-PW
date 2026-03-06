@@ -35,7 +35,7 @@ nav {
 }
 
 .sec1 {
-  background-image: url('https://www.ohchr.org/sites/default/files/styles/hero_5_image_desktop/public/SiteCollectionImages/Press/Story_Iraq_Education.jpg?itok=RiUTXQVd');
+  background-image: url("https://www.ohchr.org/sites/default/files/styles/hero_5_image_desktop/public/SiteCollectionImages/Press/Story_Iraq_Education.jpg?itok=RiUTXQVd");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,11 +43,36 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
-h2, h3 {
+.sec2 {
+  display: flex;
+  text-align: center;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
   color: #f3f3f3;
   display: flex;
   justify-content: center;
+}
+
+.mainBtn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: black;
+  color: #f3f3f3;
 }
